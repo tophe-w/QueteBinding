@@ -8,6 +8,7 @@ const ROUTES: Routes = [
     {path:'menu', component: MenuComponent },
     {path:'sign-up', component: SignUpComponent},
     {path:'user-profile', component: UserProfileComponent},
+    {path: '',component: UserProfileComponent},
 ];
 
 
